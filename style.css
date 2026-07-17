@@ -646,3 +646,38 @@ body{
     line-height:2;
     color:#555;
 }
+.social-links{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-top:25px;
+}
+
+.social-card{
+    width:130px;
+    background:#fff;
+    border-radius:15px;
+    text-decoration:none;
+    color:#333;
+    padding:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+    transition:.3s;
+}
+
+.social-card:hover{
+    transform:translateY(-5px);
+}
+
+.social-card img{
+    width:55px;
+    height:55px;
+    object-fit:contain;
+    margin-bottom:10px;
+}
+
+.social-card span{
+    display:block;
+    font-weight:bold;
+}
